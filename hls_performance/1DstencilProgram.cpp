@@ -1,15 +1,13 @@
 /*
- * 参考文档: <hls_tutorial_examples> - 2
- * 测试不同的
+ * 参考文档 <hls_tutorial_examples> - 2
+ * 测试不同Period下 性能和资源开销
  */
 
 const int N = 1024 ; // 存储数据遍历空间
 const float factor = 0.3333; //
 
 
-
-
-/*鉴于端口访存的需求,需要多个周期才能获取数据*/
+/**/
 void Simple1DStencil(float const *memory_in, float *memory_out){
 
  float left,center,right; // 暂存计算数据

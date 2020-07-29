@@ -6,7 +6,7 @@
 
 
 ###　测试结果
-![比较结果](../image/CriticalPathDelay_Compare.png)
+![比较结果](./image/CriticalPathDelay_Compare.png)
 
 ###　资源开销
 
